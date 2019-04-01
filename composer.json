@@ -1,0 +1,22 @@
+{
+    "name": "phpdaxin/phptools",
+    "description": "PhpTools",
+    "keywords": ["phptools", "Tool", "Tools","php","help"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "enhengs",
+            "email": "daenheng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpTools\\PhpToolsSrc\\": "src/"
+        }
+    }
+}
