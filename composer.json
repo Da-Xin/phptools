@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "phpoffice/phpspreadsheet": "^1.*"
+        "phpoffice/phpspreadsheet": ">=1.7"
     },
     "autoload": {
         "psr-4": {
