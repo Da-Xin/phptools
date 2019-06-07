@@ -1,7 +1,7 @@
 {
     "name": "phpdaxin/phptools",
-    "description": "PhpTools",
-    "keywords": ["phptools", "Tool", "Tools","php","help"],
+    "description": "ThinkPHP5 工具类",
+    "keywords": ["phptools", "tool", "tools","php","help"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,7 +12,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "phpoffice/phpspreadsheet": "^1.*"
     },
     "autoload": {
         "psr-4": {
